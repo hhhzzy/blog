@@ -1,33 +1,24 @@
-# server
+# hzy_element_typescript_admin
 
-
-
-## QuickStart
-
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
-
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
+## Project setup
+```
+npm install
 ```
 
-### Deploy
-
-```bash
-$ npm start
-$ npm stop
+### Compiles and hot-reloads for development
+```
+npm run serve
 ```
 
-### npm scripts
+### Compiles and minifies for production
+```
+npm run build
+```
 
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+### Lints and fixes files
+```
+npm run lint
+```
 
-
-[egg]: https://eggjs.org
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
