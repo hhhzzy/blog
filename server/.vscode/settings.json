@@ -1,0 +1,39 @@
+{
+        "editor.codeActionsOnSave": { // 保存自动修改bug
+            "source.fixAll.eslint": true
+        },
+        "files.associations": {
+            "*.vue": "vue"
+        },
+        "eslint.options": {
+            "extensions": [
+                ".js",
+                ".vue",
+                ".ts",
+                ".d.ts"
+            ]
+        },
+        "eslint.validate": [
+            "typescript",
+            "javascript",
+            {
+                "language": "vue",
+                "autoFix": true
+            },
+            {
+                "language": "typescript",
+                "autoFix": true
+            },
+            "html",
+            "vue"
+        ],
+        "git.ignoreMissingGitWarning": true,
+        "editor.detectIndentation": false,
+        "editor.tabSize": 4,
+        "editor.fontSize": 16,
+        "eslint.codeAction.showDocumentation": {
+    
+    
+            "enable": true
+        },
+    }
